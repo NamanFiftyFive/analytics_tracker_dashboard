@@ -1,0 +1,364 @@
+{
+  "@@locale": "en",
+  "appTitle": "Analytics Tracker",
+  "loading": "Loading…",
+  "retry": "Try again",
+  "cancel": "Cancel",
+  "heroTitle": "See what people do in your app, screen by screen.",
+  "signInTitle": "Sign in",
+  "signInSubtitle": "Use the email your organization registered with, or the one your admin added.",
+  "emailLabel": "Email",
+  "emailHint": "you@company.com",
+  "passwordLabel": "Password",
+  "passwordHint": "At least 8 characters",
+  "signInButton": "Sign in",
+  "noAccountPrompt": "New here?",
+  "createOrganizationLink": "Create an organization",
+  "joinTeamNote": "Joining a team? Your admin creates your account and gives you a temporary password.",
+  "registerTitle": "Create your organization",
+  "registerSubtitle": "You become its admin. Analysts and viewers you add later see only this organization's data.",
+  "organizationNameLabel": "Organization name",
+  "organizationNameHint": "Acme Motors",
+  "fullNameLabel": "Your name",
+  "fullNameHint": "Full name",
+  "workEmailLabel": "Work email",
+  "nextStepsTitle": "Next steps",
+  "nextStepsBody": "1. Add a project for your app and copy its API key\n2. Add the SDK to your app\n3. Invite your team",
+  "createOrganizationButton": "Create organization",
+  "haveAccountPrompt": "Already have an account?",
+  "signInLink": "Sign in",
+  "backToSignIn": "Back to sign in",
+  "validationRequired": "This field is required",
+  "validationEmail": "Enter a valid email address",
+  "validationPasswordLength": "Use at least 8 characters",
+  "validationMinLength": "Use at least {min} characters",
+  "@validationMinLength": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "errorNetwork": "Can't reach the server. Check your connection and try again.",
+  "errorUnexpected": "Something went wrong. Please try again.",
+  "tabOverview": "Overview",
+  "tabEvents": "Events",
+  "tabUsers": "Users",
+  "tabAlerts": "Alerts",
+  "tabMore": "More",
+  "rangeToday": "Today",
+  "range7Days": "7 days",
+  "range30Days": "30 days",
+  "range90Days": "90 days",
+  "dateRangeLabel": "Date range",
+  "kpiActiveUsers": "Active users",
+  "kpiEvents": "Events",
+  "kpiSessions": "Sessions",
+  "kpiAvgSession": "Avg. session",
+  "insightsPending": "Numbers appear here once the insights API is ready.",
+  "projectDetailsTitle": "Project",
+  "platformLabel": "Platform",
+  "timezoneLabel": "Timezone",
+  "activeKeysLabel": "Active API keys",
+  "selectProjectTitle": "Choose a project",
+  "switchProject": "Switch project",
+  "noProjectsTitle": "No projects yet",
+  "noProjectsBody": "An admin of this organization can add a project for each app or website.",
+  "noOrganizationsTitle": "No organization yet",
+  "noOrganizationsBody": "You're not a member of any organization. Ask an admin to add you.",
+  "loadFailedTitle": "Couldn't load your workspace",
+  "comingSoonTitle": "Coming soon",
+  "eventsComingSoon": "A live feed of every event your apps send, with search and filters.",
+  "usersComingSoon": "Everyone who used your app, with their sessions and timeline.",
+  "alertsComingSoon": "Rules that notify you when an event happens or crosses a threshold.",
+  "moreTitle": "More",
+  "superAdminBadge": "Super admin",
+  "roleInOrganization": "{role} of {organization}",
+  "@roleInOrganization": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "organization": {
+        "type": "String"
+      }
+    }
+  },
+  "roleAdmin": "Admin",
+  "roleAnalyst": "Analyst",
+  "roleViewer": "Viewer",
+  "organizationLabel": "Organization",
+  "switchOrganization": "Switch",
+  "selectOrganizationTitle": "Choose an organization",
+  "appearanceTitle": "Appearance",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "languageTitle": "Language",
+  "languageSystem": "System",
+  "languageEnglish": "English",
+  "languageHindi": "हिन्दी",
+  "signOutButton": "Sign out",
+  "signOutConfirmTitle": "Sign out?",
+  "signOutConfirmBody": "You'll need your email and password to sign in again.",
+  "noEventsYetTitle": "No events yet",
+  "noEventsYetBody": "Numbers appear once your app sends events with the SDK.",
+  "eventsPerDayTitle": "Events per day",
+  "topScreensTitle": "Top screens",
+  "topEventsTitle": "Top events",
+  "seeEvents": "See events",
+  "noDataForRange": "Nothing in this period yet.",
+  "changeUp": "↑ {percent}%",
+  "@changeUp": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "changeDown": "↓ {percent}%",
+  "@changeDown": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "durationMinSec": "{minutes}m {seconds}s",
+  "@durationMinSec": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "viewsCount": "{count, plural, =1{1 view} other{{count} views}}",
+  "@viewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "usersCount": "{count, plural, =1{1 user} other{{count} users}}",
+  "@usersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "eventsCount": "{count, plural, =1{1 event} other{{count} events}}",
+  "@eventsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "searchEventsHint": "Search user id, screen or property",
+  "allEventsFilter": "All events",
+  "noMatchingEventsTitle": "No matching events",
+  "noMatchingEventsBody": "Try another filter or search.",
+  "todayLabel": "Today",
+  "yesterdayLabel": "Yesterday",
+  "loadMoreFailed": "Couldn't load more. Pull down to refresh.",
+  "searchUsersHint": "Search user id or trait",
+  "usersFilterLabel": "Which users",
+  "filterAll": "All {count}",
+  "@filterAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filterKnown": "Known {count}",
+  "@filterKnown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filterNew": "New {count}",
+  "@filterNew": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "anonymousUser": "Anonymous",
+  "noUsersTitle": "No users yet",
+  "noUsersBody": "People appear here once your app sends events.",
+  "noMatchingUsersTitle": "No matching users",
+  "justNow": "just now",
+  "minutesAgo": "{minutes} min ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{hours} h ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "userTitle": "User",
+  "firstSeenLabel": "First seen",
+  "lastSeenLabel": "Last seen",
+  "sessionsLabel": "Sessions",
+  "eventsLabel": "Events",
+  "recentSessionsTitle": "Recent sessions",
+  "noSessions": "No sessions recorded yet.",
+  "userNotFound": "This user no longer exists.",
+  "projectsMenuTitle": "Projects and API keys",
+  "projectsCount": "{count, plural, =0{No projects} =1{1 project} other{{count} projects}}",
+  "@projectsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "projectsTitle": "Projects",
+  "projectsSubtitle": "One project per app or website. Each has its own API key and data.",
+  "newProjectButton": "New project",
+  "projectNameLabel": "Project name",
+  "projectNameHint": "Car App",
+  "platformWeb": "Website",
+  "platformIos": "iOS",
+  "platformAndroid": "Android",
+  "platformFlutter": "Flutter",
+  "platformOther": "Other",
+  "timezoneHint": "Asia/Kolkata",
+  "timezoneHelp": "Days in charts are counted in this timezone.",
+  "createProjectButton": "Create project",
+  "activeKeysCount": "{count, plural, =0{No active key} =1{1 active key} other{{count} active keys}}",
+  "@activeKeysCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "onlyAdminsCreateProjects": "Only admins can create projects and manage API keys.",
+  "apiKeysTitle": "API keys",
+  "newKeyButton": "New key",
+  "keyNameLabel": "Key name",
+  "keyNameHint": "Android release",
+  "createKeyButton": "Create key",
+  "keyActive": "Active",
+  "keyRevoked": "Revoked",
+  "keyUsed": "used {when}",
+  "@keyUsed": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "keyNeverUsed": "never used",
+  "revokeKeyButton": "Revoke",
+  "revokeKeyTitle": "Revoke this key?",
+  "revokeKeyBody": "Apps using \"{name}\" stop sending events immediately. This can't be undone.",
+  "@revokeKeyBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "keyCreatedTitle": "Copy your API key now",
+  "keyCreatedBody": "It is shown only once. If you lose it, create a new key and revoke this one.",
+  "copyButton": "Copy",
+  "copiedMessage": "Copied",
+  "doneButton": "Done",
+  "noKeysYet": "No API keys yet.",
+  "sdkSetupTitle": "Add the SDK to your app",
+  "sdkStepDependency": "1. In pubspec.yaml",
+  "sdkStepInit": "2. In main.dart, with your API key",
+  "keysAdminOnly": "Only admins can see and manage API keys.",
+  "createdLabel": "Created",
+  "membersMenuTitle": "Members and roles",
+  "membersTitle": "Members",
+  "youLabel": "You",
+  "joinedOn": "Joined {date}",
+  "@joinedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addMemberButton": "Add member",
+  "addMemberTitle": "Add a member",
+  "addMemberHelp": "If this email has no account yet, one is created with the temporary password. Share it with them so they can sign in.",
+  "roleLabel": "Role",
+  "roleHelp": "Viewers only read. Analysts see all data and will create alerts. Admins also manage projects, API keys and members.",
+  "temporaryPasswordLabel": "Temporary password",
+  "temporaryPasswordHint": "Only needed for a new account",
+  "fullNameOptionalLabel": "Name (optional)",
+  "memberAdded": "{email} added as {role}",
+  "@memberAdded": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      },
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "changeRoleTitle": "Change role",
+  "roleChanged": "Role changed to {role}",
+  "@roleChanged": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "removeMemberButton": "Remove",
+  "removeMemberTitle": "Remove {email}?",
+  "@removeMemberTitle": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "removeMemberBody": "They lose access to this organization's data immediately. Their account itself is kept.",
+  "leaveOrganizationButton": "Leave organization",
+  "leaveOrganizationTitle": "Leave {organization}?",
+  "@leaveOrganizationTitle": {
+    "placeholders": {
+      "organization": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveOrganizationBody": "You lose access to its data. An admin can add you again later.",
+  "memberActions": "Actions for {email}",
+  "@memberActions": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "membersLoadFailed": "Couldn't load members"
+}

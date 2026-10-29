@@ -1,0 +1,49 @@
+# Dart / Flutter build output and tool caches
+.dart_tool/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# App config: each machine keeps its own .env (copy .env.example). Only public values go in it,
+# because the file is bundled into the app.
+.env
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+**/android/captures/
+*.jks
+*.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+**/xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# FVM
+.fvm/
+
+# Claude Code: personal settings and the guard hook marker (team settings in .claude/settings.json ARE committed)
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/.dirty
